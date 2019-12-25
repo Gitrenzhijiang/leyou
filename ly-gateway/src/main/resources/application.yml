@@ -1,0 +1,38 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: api-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 30 # 30秒拉取一次
+# 路由规则
+zuul:
+  prefix: /api # 添加路由前缀
+  routes:
+    item-service:
+      path: /item/**
+      serviceId: item-service
+      strip-prefix: true
+    upload-service:
+      path: /upload/**
+      serviceId: upload-service
+      strip-prefix: true
+  strip-prefix: true   # 去除全局前缀, 不过不去除, 服务转发匹配的前缀   也要求带入请求路径
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+ribbon:
+  ReadTimeout: 500 # 读取超时时长
+  ConnectTimeout: 2500 # ribbon 连接超时时长
+  MaxAutoRetries: 0 # 当前服务重试次数
+  MaxAutoRetriesNextServer: 0 # 切换服务重试次数
+  eureka:
+    enabled: true
+
