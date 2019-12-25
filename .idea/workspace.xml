@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6d0f44e-f1ee-444c-8af7-eb4b581a3223" name="Default Changelist" comment="" />
+    <list default="true" id="b6d0f44e-f1ee-444c-8af7-eb4b581a3223" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ly-registry/target/" />
@@ -45,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/ren/controller/SpecificationController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,6 +69,9 @@
     <findStrings>
       <find>325402</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -139,18 +145,29 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="15" />
-    <option name="y" value="16" />
-    <option name="width" value="1660" />
-    <option name="height" value="985" />
+    <option name="y" value="22" />
+    <option name="width" value="1194" />
+    <option name="height" value="979" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,6 +333,7 @@
       <workItem from="1566227465923" duration="762000" />
       <workItem from="1566265606716" duration="4213000" />
       <workItem from="1566308055335" duration="32000" />
+      <workItem from="1577290303083" duration="346000" />
     </task>
     <servers />
   </component>
@@ -328,13 +346,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129369000" />
+    <option name="totallyTimeSpent" value="129715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="14" width="1328" height="788" extended-state="0" />
+    <frame x="12" y="13" width="1328" height="788" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6525735" visible="true" weight="0.27344367" />
-      <window_info id="Structure" order="1" sideWeight="0.34742647" side_tool="true" visible="true" weight="0.27344367" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.65" visible="true" weight="0.27817178" />
+      <window_info id="Structure" order="1" sideWeight="0.35" side_tool="true" visible="true" weight="0.27817178" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -350,12 +368,12 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32905295" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32931727" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3224852" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.17199391" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.23592085" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -776,7 +794,7 @@
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/ren/controller/SpecificationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
