@@ -3,4 +3,4 @@
 /.git
 /.classpath
 /.project
-.idea/
+.idea/**
